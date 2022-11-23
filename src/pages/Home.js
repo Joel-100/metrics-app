@@ -3,7 +3,7 @@ import { useSelector, shallowEqual, useDispatch } from 'react-redux';
 import { fetchCountry } from '../store/action';
 import Nav from '../components/Nav';
 import CountryList from '../components/CountryList';
-import africaImg from '../assets/eu.png';
+import africaImg from '../assets/africa.png';
 
 let retrieveOnce = true;
 const Home = () => {
