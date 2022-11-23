@@ -1,8 +1,11 @@
+/* eslint-disable */
 import { Link } from 'react-router-dom';
 
 const DataPage = (props) => {
-  // eslint-disable-next-line react/prop-types
-  const { id, index, image, name } = props;
+  //  eslint-disable-next-line react/prop-types
+  const {
+    id, index, image, name,
+  } = props;
   return (
     <Link
       to={`/dataPage/${id}`}
