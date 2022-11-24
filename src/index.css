@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: rgb(15 23 42);
+}
+
+a.data-page {
+  border: 1px solid rgba(252, 252, 252, 0.269);
+  height: 10rem;
+  background-color: transparent;
+  transition: 0.5s all ease-out;
+}
+
+a.data-page:hover {
+  background-color: rgba(252, 252, 252, 0.087);
+}

@@ -20,23 +20,23 @@ const CountryPage = () => {
     <>
       <Nav>Country</Nav>
       <div>
-        <div className="flex p-5 bg-[#FC5193] items-center">
+        <div className="flex p-5 items-center">
           <img
             src={country[index].image}
             alt="Country flag"
-            className="w-40 h-40 rounded-full ml-8"
+            className="w-[8rem] h-[8rem] rounded-full ml-8"
           />
-          <h3 className="text-3xl text-white ml-10 font-mono font-bold">
+          <h3 className="text-2xl text-center text-white ml-10 font-mono font-bold">
             {country[index].name}
           </h3>
         </div>
 
-        <div className="text-white bg-[#DF4782]">
+        <div className="text-white bg-[#CE4176]">
           <p className="ml-10">Country Information</p>
         </div>
 
         <div>
-          <div className=" py-10 px-10 bg-[#E94987] text-white flex justify-between items-center">
+          <div className=" py-10 px-10 bg-[#CE4176] text-white flex justify-between items-center">
             <p className="text-2xl font-semibold font-mono">Capital:</p>
             <p>{country[index].capital}</p>
           </div>
@@ -44,7 +44,7 @@ const CountryPage = () => {
             <p className="text-2xl font-semibold font-mono">Population:</p>
             <p>{country[index].population}</p>
           </div>
-          <div className=" py-10 px-10 bg-[#E94987] text-white flex justify-between items-center">
+          <div className=" py-10 px-10 bg-[#CE4176] text-white flex justify-between items-center">
             <p className="text-2xl font-semibold font-mono">Timezone:</p>
             <p>{country[index].timezone}</p>
           </div>

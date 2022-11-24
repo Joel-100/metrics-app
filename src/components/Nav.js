@@ -6,7 +6,7 @@ const Nav = (props) => {
   // eslint-disable-next-line react/prop-types
   const { children } = props;
   return (
-    <div className="flex justify-between items-center bg-[#EC4C8A] py-3 px-4">
+    <div className="flex justify-between items-center py-3 px-4 border-b">
       <Link to="/">
         <div>
           <svg className="fill-white w-5 h-5 cursor-pointer">
